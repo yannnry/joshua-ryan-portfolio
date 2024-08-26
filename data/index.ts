@@ -144,7 +144,7 @@ export const testimonials = [
       "Joshua Ryan is someone I can rely on, a person who is not only capable but also approachable. They listen carefully and follow instructions with precision, making them an ideal colleague to work with.",
     name: "Louise A. Nonato",
     img: "/louise.svg",
-    title: "Senior Developer at Comptrolla, Outsourcee",
+    title: "Senior Developer at Comptrolla",
   },
 ];
 
@@ -199,8 +199,8 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Outsourcee - Mobile App (SaaS)",
-    companyName: "Outsourcee | Comptrolla Technologies, Inc.",
+    title: "ReactNative - Mobile App (SaaS)",
+    companyName: "ReactNative Development | Comptrolla Technologies, Inc.",
     desc: "Design and Developed a Frontend Project with React, Next.js, and Tailwind CSS along with utilization of Azure DevOps.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",

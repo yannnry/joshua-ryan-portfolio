@@ -1,11 +1,15 @@
-import { withSentryConfig } from "@sentry/nextjs";
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  images: {
-    domains: [
-      "api.microlink.io", // Microlink Image Preview
-    ],
-  },
+// next.config.js
+// next.config.js
+export const images = {
+  remotePatterns: [
+    {
+      protocol: "https",
+      hostname: "api.microlink.io",
+      port: "",
+      pathname: "/**",
+    },
+  ],
 };
 
 // export default withSentryConfig(nextConfig, {
