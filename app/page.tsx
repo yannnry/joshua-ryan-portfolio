@@ -1,5 +1,3 @@
-"use client";
-
 import Approach from "@/components/Approach";
 import Clients from "@/components/Clients";
 import Experince from "@/components/Experince";
@@ -9,15 +7,8 @@ import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
-import { useEffect } from "react";
-import * as Sentry from "@sentry/nextjs";
-import { FaHome } from "react-icons/fa";
 
 export default function Home() {
-  useEffect(() => {
-    // Manually show the feedback dialog after the component mounts
-    Sentry.showReportDialog();
-  }, []);
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
