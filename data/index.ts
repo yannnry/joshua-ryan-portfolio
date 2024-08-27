@@ -96,7 +96,7 @@ export const projects = [
       "/fm.svg",
       "/aceternity.svg",
     ],
-    link: "https://google.com/",
+    link: "https://joshua-ryan-portfolio.vercel.app/",
   },
   // {
   //   id: 3,
